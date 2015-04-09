@@ -1,0 +1,26 @@
+{
+  "name": "borescope",
+  "version": "0.0.1",
+  "description": "Borescope is a module used to get information about pipes such as throughput, total data sent etc...  It is very similar to the amazing UNIX utility pipe viewer or 'pv'.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rudids/borescope"
+  },
+  "keywords": [
+    "pv",
+    "pipeviewer",
+    "pipe",
+    "viewer",
+    "data"
+  ],
+  "author": "Rudi de Sousa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rudids/borescope/issues"
+  },
+  "homepage": "https://github.com/rudids/borescope"
+}
