@@ -29,13 +29,13 @@ spawn("dd", ["if=image.img"]).stdout
 	.pipe(borescope)
 	.pipe(spawn("dd", ["of=/dev/null"]).stdin);
 
-borescope.on("borescope_data", function(data){
+borescope.on("borescopeData", function(data){
 	bar.tick(data.chunkSize, {
 		throughput: numeral(data.throughput).format("0.00 b") + "/s"
 	});
 });
 
-borescope.on("borescope_done", function(data){
+borescope.on("borescopeDone", function(data){
 	console.log("Average throughput: " + numeral(data.averageThroughput).format("0.00 b") + "/s");
 	console.log("Duration: " + numeral(data.totalTime).format("00:00:00"));
 	console.log("Transfered: " + numeral(data.totalVolume).format("0.00 b"));
