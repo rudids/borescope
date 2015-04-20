@@ -1,6 +1,6 @@
 {
   "name": "borescope",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Borescope is a module used to get information about pipes such as throughput, total data sent etc...  It is very similar to the amazing UNIX utility pipe viewer or 'pv'.",
   "main": "index.js",
   "scripts": {
