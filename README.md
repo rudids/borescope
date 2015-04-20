@@ -31,7 +31,6 @@ volume | Total amount of data passed through the pipe so far (in bytes).
 throughput | Speed of throughput (in bytes).
 elapsedTime | Total amount of time elapsed so far (in seconds).
 chunkSize | Total amount of data passed through since last event of borescopeData (in bytes).
-chunkSize | Total amount of data passed through since last event of borescopeData (in bytes).
 size | Total size of the stream (in bytes, only is size specified).
 eta | Estimated time of arrival for completion of stream (in seconds, only is size specified).
 percent | Percentage completed. (in percent, only is size specified).
