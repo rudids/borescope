@@ -4,7 +4,7 @@
   "description": "Borescope is a module used to get information about pipes such as throughput, total data sent etc...  It is very similar to the amazing UNIX utility pipe viewer or 'pv'.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "make test"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,17 @@
   "bugs": {
     "url": "https://github.com/rudids/borescope/issues"
   },
-  "homepage": "https://github.com/rudids/borescope"
+  "homepage": "https://github.com/rudids/borescope",
+  "dependencies": {
+    "lodash": "^3.7.0",
+    "stream": "0.0.2",
+    "util": "^0.10.3"
+  },
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "chalk": "^1.0.0",
+    "fs": "0.0.2",
+    "progress": "^1.1.8",
+    "numeral": "^1.5.3"
+  }
 }
