@@ -4,7 +4,7 @@ var test = require("tape");
 var borescope = require("../index.js");
 
 test("Check interfaces", function (t) {
-    t.equal(typeof borescope.size, "function', 'Size is a function.");
+    t.equal(typeof borescope.size, "function", "Size is a function.");
     t.end();
 });
 
